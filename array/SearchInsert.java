@@ -20,6 +20,16 @@ public class SearchInsert {
 		 } 
 		 return 1;
 	}
+
+	//简单的思路，如果数组里面的元素大于或者等于target直接return i
+	//如果遍历完之后还是没有的话，那就插入末尾
+	public int searchInsert1(int[] nums, int target) {
+	for(int i=0;i<nums.length;i++){
+	    if(nums[i]>=target) return i;
+	}
+	return nums.length;
+    }
+
 	public static void main(String[] args) {
 		SearchInsert si = new SearchInsert();
 		int[] nums = {1,3};
