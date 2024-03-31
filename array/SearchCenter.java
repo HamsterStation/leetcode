@@ -2,7 +2,7 @@ package array;
 
 public class SearchCenter {
 	public int pivotIndex(int[] nums) {
-        //本题的问题：第一次我将变量初始化的时候放在开始了，
+        //本题的问题 第一次我将变量初始化的时候放在开始了，
 		//我忘记每一次遍历的时候都要让他俩等于0才行
         //计算之前的数 让他等于之后的数；
         for(int i =0;i<nums.length;i++){
