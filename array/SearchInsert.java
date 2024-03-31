@@ -1,6 +1,7 @@
 package array;
 
 public class SearchInsert {
+	//本题出现的问题，未能彻底把控数组的边界
 	 public int searchInsert(int[] nums, int target) {
 		 int i;
 		 for(i =0 ;i<nums.length;i++) {
